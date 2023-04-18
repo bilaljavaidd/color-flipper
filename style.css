@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: tomato;
+    font-size: 1.2rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 6px;
+    /* border-bottom: 2px solid; */
+    box-shadow: inset  0px -5px 5px -3px rgba(0, 0, 0, 0.623);
+
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+}
+ 
+.navlinks li{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+.navlinks li:hover{
+    color: rgb(9, 219, 117);
+    cursor: pointer;
+    transition: 0.6s;
+    
+    
+}
+
+.navbar h4:hover{
+
+    color: rgb(226, 8, 44);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px; 
+}
+ 
+.centerdiv{
+    background-color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    /* font-weight: 100px; */
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    transition: all 0.4s linear;
+    cursor: pointer;
+}
+
+.centerdiv h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span{
+    color: rgb(119, 0, 255);
+}
+
